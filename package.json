@@ -1,0 +1,30 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "\"Browser based game\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server src",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Helga-yalos/ajs-homework-1.3.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Helga-yalos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Helga-yalos/ajs-homework-1.3/issues"
+  },
+  "homepage": "https://github.com/Helga-yalos/ajs-homework-1.3#readme",
+  "devDependencies": {
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "http-server": "^0.12.3"
+  }
+}
